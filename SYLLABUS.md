@@ -15,9 +15,9 @@ Lesson Topics most likely WILL change as the course progresses.
 | 3 | Ruby | Loops & Collections | Mon. 12/1/14|
 | 4 | Ruby | Collections & Apis | Wed. 12/3/14|
 | 5 | Ruby | OOP: Methods, Classes & Sharing Behavior| Mon. 12/8/14|
-| 6 | Framework Intro| MVC Overview | Wed. 12/10/14|
+| 6 | Ruby| OOP: Methods, Classes Continued| Wed. 12/10/14|
 | 7 | Framework Intro | MVC Overview Continued| Mon. 12/15/14|
-| 8 | Under The Hood|Controller & Routes| Mon. 12/17/14|
+| 8 | Framework Intro |MVC Overview Continued| Mon. 12/17/14|
 | - | Break| Winter Break | 12/18/15 - 1/4/15|
 | 9 | Under The Hood| Controller & Routes| Mon. 1/5/15|
 | 10 | Under The Hood| Views, Forms, Helpers| Wed. 1/7/15|
