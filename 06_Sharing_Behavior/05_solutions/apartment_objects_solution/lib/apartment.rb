@@ -1,21 +1,26 @@
-#Apartment class.
-class Apartment
-  attr_accessor :name, :sqft, :num_bedrooms, :num_bathrooms, :renter, :rent
+require 'pry'
+require 'pry-byebug'
 
-  def initialize(name, sqft, num_bedrooms, num_bathrooms)
+class Apartment
+  attr_accessor :name, :sqft, :bedrooms, :bathrooms, :renter, :rent
+
+  def initialize(name,sqft,bedrooms,bathrooms)
     @name = name
     @sqft = sqft
-    @num_bedrooms = num_bedrooms
-    @num_bathrooms = num_bathrooms
+    @bedrooms = bedrooms
+    @bathrooms = bathrooms
     @renter = nil
     @rent = nil
   end
 
-  def is_occupied?
-    @renter != nil
-  end
 
   def to_s
-    "Apartment: #{@name} \n sqft: #{@sqft} \t Bedrooms: #{@num_bedrooms} \t Bathrooms: #{@num_bathrooms}"
+    "Apartment #{name} has #{sqft} sqft"
+  end
+
+   def is_occupied?
+    @renter != nil
   end
 end
+
+

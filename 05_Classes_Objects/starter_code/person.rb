@@ -11,6 +11,11 @@ class Person
     @name = name
   end
 
+  def to_s
+    "Building #{name} at #{address} has #{@apartments.count} apartments."
+  end
+
+
   #instance method 
   def greet
     puts "Hey, My name is #{@name}"

@@ -12,11 +12,11 @@ class Building
     puts "------------#{@name} Apartment List--------------"
     @apartments.each do |apartment|
       puts apartment
-      puts (apartment.is_occupied? ? apartment.renter : "This apartment is vacant")
+      puts (apartment.is_occupied? ? "The apartment is not available. Renter name: #{apartment.renter.name}" : "This apartment is vacant")
     end
   end
 
   def to_s
-    "Building #{name} at #{address} has #{@apartments.count} apartments."
+    "#{name} at #{address} has #{@apartments.count} apartments."
   end
 end

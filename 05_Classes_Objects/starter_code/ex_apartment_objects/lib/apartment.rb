@@ -9,6 +9,8 @@ class Apartment
     @sqft = sqft
     @bedrooms = bedrooms
     @bathrooms = bathrooms
+    @renter = nil
+    @rent = nil
   end
 
 
@@ -16,6 +18,9 @@ class Apartment
     "Apartment #{name} has #{sqft} sqft"
   end
 
+   def is_occupied?
+    @renter != nil
+  end
 end
 
 
