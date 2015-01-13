@@ -1,15 +1,25 @@
 class SecretNumbersController < ApplicationController
+
+
   def new
+    @secret_numbers = secret_numbers
   end
 
   def show
-    # get a random number from 1-10
-    @secret_number = rand(5)+1
-
-    # get the user chosen number from params
-    # the param is named 'id' because of route convention
-    # lastly, we want to turn it from a String to an Integer
-    # that way, we can compare it to the secret number (which is an int)
+    @secret_number = secret_numbers.sample
     @chosen_number = params[:id].to_i
+    @winner = is_winner?
   end
+
+  private 
+  
+  #select number randomly from array 
+  def secret_numbers
+    (1..5).to_a
+  end
+
+  def is_winner?
+    @secret_number == @chosen_number
+  end
+
 end

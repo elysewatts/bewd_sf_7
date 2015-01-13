@@ -1,0 +1,33 @@
+source 'https://rubygems.org'
+
+#Core Management
+gem 'rails', '4.1.8'
+gem 'sqlite3'
+
+#Front End Management
+gem 'sass-rails'
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+gem 'simple_form'
+gem 'font-awesome-sass'
+gem 'uglifier'
+gem 'coffee-rails'
+gem 'jquery-rails'
+gem 'turbolinks'
+gem 'jbuilder'
+
+#Testing & Debugging Tools 
+group :development do
+  gem 'annotate'
+  gem 'pry-rails'
+  gem 'binding_of_caller'
+  gem 'better_errors'
+  gem 'pry'
+  gem 'pry-byebug'
+  gem 'thin'
+  gem 'spring'
+end
+
+#Documentation Stuff
+gem 'sdoc', '~> 0.4.0',          group: :doc
+

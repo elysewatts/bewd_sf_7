@@ -1,0 +1,15 @@
+<h1>Movies Index</h1>
+
+<% @movies.each do |movie| %> 
+
+<li style="color:#cc3333;">  
+
+<%= link_to "#{movie.title}", movie_path(movie) %>  </li>
+
+<% end %> 
+
+</p>
+
+<%= link_to "Create New Movie", new_movie_path, class: 'btn btn-lg btn-success' %>
+
+

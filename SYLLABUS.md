@@ -5,7 +5,7 @@ BACK-END WEB DEVELOPMENT
 
 
 ###Syllabus
-Lesson Topics most likely WILL change as the course progresses. 
+Lesson Topics WILL change as the course progresses. 
 
 | Lesson  | Category| Topic| Date|
 | ------------- |:--------------------------------------------------|:-------------------------------|:-------------------|
@@ -19,17 +19,18 @@ Lesson Topics most likely WILL change as the course progresses.
 | 7 | Framework Intro | MVC Overview Continued| Mon. 12/15/14|
 | 8 | Framework Intro |MVC Overview Continued| Mon. 12/17/14|
 | - | Break| Winter Break | 12/18/15 - 1/4/15|
-| 9 | Under The Hood| Controller & Routes| Mon. 1/5/15|
-| 10 | Under The Hood| Views, Forms, Helpers| Wed. 1/7/15|
-| 11 | Under The Hood| Associations & 'Really Grey Areas'| Mon. 1/12/15|
-| 12 | Essentials| Front End Integration with Bootstrap & Simple Form| Wed. 1/14/15|
-| 13 | Essentials| Authentication Integration| Wed. 1/21/15|
-| 14 | Essentials| 3rd Party API Integration | Mon. 1/26/15|
-| 15 | Elective| Final Project Lab| Mon. 1/28/15|
-| 16 | Elective| Messaging with Twilio & MailGun (or postmark)| Wed. 2/2/15|
-| 17 | Elective| Uploading Images (with S3, carrierwave and fog)| Wed. 2/4/15|
-| 18| Elective| Heroku Deployment| Mon. 2/9/15|
-| 29|  | Class Presentations !!!!| Mon. 2/11/15|
+| 9 | Under The Hood| Route, View & Controller | Mon. 1/5/15|
+| 10 | Under The Hood| Route, View & Controller | Wed. 1/7/15|
+| 11 | Essentials| Model: Schema Design & Associations  | Mon. 1/12/15|
+| 12 | Essentials| Front End Integration: Forms & Views. Intro to Bootstrap & Simple Form| Wed. 1/14/15|
+| -  | -| No class. School Closed               | Wed. 1/19/15|
+| 13 | Essentials| Model: Active Record Associations & Validations | Wed. 1/21/15|
+| 14 | Essentials| Authentication with Devise | Final Project Kickoff: Design | Mon. 1/26/15|
+| 15 | Elective| Intro API Integration | Mon. 1/28/15|
+| 16 | Elective| Project Lab Time & Elective Subject | | Wed. 2/2/15|
+| 17 | Elective| Project Lab Time & Elective Subject | Wed. 2/4/15|
+| 18 |Project Lab | Project Lab, Heroku Deployment & Elective Subject| Mon. 2/9/15|
+| 29| Project Lab | Final Project Presentations !!!!| Mon. 2/11/15|
 
 
 

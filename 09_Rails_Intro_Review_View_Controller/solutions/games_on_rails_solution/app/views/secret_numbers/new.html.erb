@@ -8,6 +8,6 @@
 
 <h2>Pick a number:<h2>
 
-<% (1..5).each do |number| %>
+<% @secret_numbers.each do |number| %>
   <%= link_to image_tag("secret_numbers/#{number}.jpeg"), secret_number_path(number) %>
 <% end %>
